@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background: #ccc;
+  font-family: sans-serif;
 }
 
 header {
@@ -10,7 +11,6 @@ header {
 
 header h1 {
   margin: 0;
-  font-family: sans-serif;
   font-size: 4em;
   text-align: center;
   line-height: 500px;
@@ -27,4 +27,19 @@ section {
 
 p {
   color: #fff;
+}
+
+footer {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  display: inline;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+footer img {
+  vertical-align: middle;
 }
